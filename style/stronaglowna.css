@@ -1,0 +1,314 @@
+/*font-family: 'Saira', sans-serif;*/
+/*font-family: 'Saira Condensed', sans-serif;*/
+/*Reset Startowy*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  /*Strona Główna*/
+  .wrapper
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #555;
+    font-family: 'Saira', sans-serif;
+
+  }
+  header
+  {
+   flex-basis: 100%;
+   display: flex;
+   height: 8vh;
+   min-height: 50px;
+   background-color: #444;
+   border-bottom:1px solid black;
+   
+   
+  }
+  
+  .logo
+  {
+    width:12% ;
+    margin-left: 20px;
+    
+
+  }
+  h1
+  {
+    width:90%;
+    text-align: center;
+    line-height: 58px;
+    color: #ddd;
+    font-size: 36px;
+  }
+
+  nav
+  {
+width:15% ;
+height: calc( 100%  -8vh );
+border-right: 1px solid black;
+
+
+
+  }
+  ul
+  {
+    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 15%;
+    height: calc( 100%  -8vh );
+    
+    
+  }
+  li
+  {
+    
+    list-style: none;
+    width: 100%;
+    border-top: 1px solid black;
+    
+  }
+  li.glowna
+  {
+    border: none;
+  }
+  a
+  {
+    display: block;
+    width: 100%;
+    color: #eee;
+    text-align: center;
+    height:calc( 90vh / 6);
+    line-height: calc( 90vh / 6);;
+    text-decoration-line: none;
+    
+
+    
+    
+  }
+  a:hover{
+    background-color: #666;
+  }
+
+  main
+  {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    color: #333;
+  }
+  section
+  {
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+  h2
+  {
+    width: 100%;
+    text-align: center;
+    margin:10px 0;
+  }
+  .car
+  {
+    width: 45%;
+  }
+  .description
+  {
+    width: 55%;
+    padding: 35px;
+  }
+
+  footer
+  {
+    width: 100%;
+    
+    text-align: center;
+    line-height: 5vh;
+    background-color: #444;
+    color: #ddd;
+    
+  }
+  iframe{
+    width:80%;
+    height: 60vh;
+    margin-left: 10%;
+    margin-bottom: 3%;
+  }
+  .onasH
+  {
+    padding-bottom: 4%;
+    font-size: 36px;
+    font-family: 'Saira', sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    color: #333;
+    
+    
+    
+  }
+  .onas
+  {
+    font-family: 'Saira', sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    color: #333;
+    
+  }
+  @media (max-width:1024px)
+  {
+    
+    section
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+  
+    }
+    h2
+    {
+      width: 100%;
+      text-align: center;
+      margin:10px 0;
+    }
+    .car
+    {
+      width: 70%;
+    }
+    .description
+    {
+      width: 70%;
+      padding: 30px;
+      text-align: justify;
+    }
+  }
+  @media (max-width:770px)
+  {
+    h1
+  {
+    
+    font-size: 20px;
+  }
+  nav
+  {
+width:100% ;
+height:  5vh ;
+border-right: 1px solid black;
+  }
+ul
+  {
+    
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: 100%;
+    height: 100% ;
+    background-color: #555;
+    
+  }
+  a
+  {
+    
+    
+    
+    
+    
+    line-height: 5vh;
+    text-decoration-line: none;
+    font-size: 10px;
+    
+  }
+    
+    
+  main
+  {
+    width: 100%;
+    
+   
+  }
+  .description
+    {
+      width: 80%;
+      
+      
+    }
+
+  }
+  @media (max-width:550px)
+  {
+    h1
+    {
+      font-size: 17px;
+    }
+    a{
+    
+    
+    
+    font-size: 8px;
+    }
+    .description
+    {
+      width: 85%;
+      
+      
+    }
+  }
+  @media (max-width:440px)
+  {
+    h1
+    {
+      font-size: 15px;
+    }
+    a{
+    
+    
+    
+    font-size: 6px;
+    }
+    .description
+    {
+      width: 95%;
+      
+      
+    }
+    
+  nav
+  {
+
+height:  5vh ;
+
+  }
+ul
+  {
+    
+    
+    
+    
+    height:  100% ;
+    
+    
+  }
+  a
+  {
+    
+    
+    
+    
+    height:100%;
+    line-height: 5vh;
+    
+    
+  }
+  }
+  
+  
+
